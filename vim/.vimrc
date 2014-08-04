@@ -160,6 +160,23 @@ noremap gk k
 " ### zencoding
 let g:user_zen_expandabbr_key = '<c-z>'
 
+" ### gtags
+" Grep
+nnoremap <C-g> :Gtags -g
+" 開いているファイルの関数一覧                                                                                                                                                
+nnoremap <C-l> :Gtags -f %<CR>
+" カーソル位置の定義元を探す
+nnoremap <C-j> :Gtags <C-r><C-w><CR>
+" カーソル位置の使用箇所を探す
+nnoremap <C-k> :Gtags -r <C-r><C-w><CR>
+" 次の検索結果へ
+nnoremap <C-n> :cn<CR>
+" 前の検索結果へ
+nnoremap <C-p> :cp<CR>
+
+" ### ctags
+":set tags=/path/to/tags
+
 
 " 言語関連
 " --------
