@@ -20,6 +20,7 @@ Bundle 'desert.vim'
 Bundle 'ZenCoding.vim'
 Bundle 'gtags.vim'
 Bundle 'YankRing.vim'
+Bundle 'scrooloose/nerdtree'
 
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
