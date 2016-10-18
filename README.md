@@ -16,17 +16,17 @@
     $ ln -s ~/dotfiles/vim/.vim ~/
     ```
 
-3. Setup Vundle:
+3. Setup vim-plug:
 
     ```
-    $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     ```
 
-4. Install configured bundles:
+4. Install plugins:
 
-Launch `vim`, run `:BundleInstall` 
+Launch `vim`, run `:PlugInstall` 
 
 Thanks to...
 
-* https://github.com/gmarik/vundle/
-* http://vim-users.jp/2011/04/hack215/
+* [junegunn/vim-plug: Minimalist Vim Plugin Manager](https://github.com/junegunn/vim-plug)
