@@ -10,8 +10,8 @@ filetype off
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'desert.vim'
 Plug 'junegunn/seoul256.vim'
+Plug 'tomasr/molokai'
 "Plug 'ZenCoding.vim'
 Plug 'gtags.vim'
 Plug 'YankRing.vim'
@@ -30,9 +30,9 @@ filetype plugin indent on
 
 set encoding=utf-8
 
-"colorscheme desert
 let g:seoul256_background = 233
 colorscheme seoul256
+"colorscheme molokai
 
 
 " 文字コード判別
