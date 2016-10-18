@@ -3,24 +3,21 @@
 " Ko Takagi <knockoutmarch@gmail.com>
 " ===================================
 
-" Vundle Setting
+" vim-plug Setting
 " --------------
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call plug#begin('~/.vim/plugged')
 
-" original repos on github
-" Bundle 'violetyk/cake.vim' <<< require Vim ver.7.3 or heigher
+Plug 'desert.vim'
+Plug 'junegunn/seoul256.vim'
+"Plug 'ZenCoding.vim'
+Plug 'gtags.vim'
+Plug 'YankRing.vim'
+Plug 'scrooloose/nerdtree'
 
-" vim-scripts repos
-Bundle 'molokai'
-Bundle 'desert.vim'
-Bundle 'ZenCoding.vim'
-Bundle 'gtags.vim'
-Bundle 'YankRing.vim'
-Bundle 'scrooloose/nerdtree'
+call plug#end()
 
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
@@ -33,8 +30,9 @@ filetype plugin indent on
 
 set encoding=utf-8
 
-"colorscheme molokai
-colorscheme desert
+"colorscheme desert
+let g:seoul256_background = 233
+colorscheme seoul256
 
 
 " 文字コード判別
