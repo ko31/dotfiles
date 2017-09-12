@@ -5,22 +5,22 @@
 1. Setup dotfiles:
 
     ```
-    $ cd ~
-    $ git clone https://github.com/ko31/dotfiles.git
+    cd ~
+    git clone https://github.com/ko31/dotfiles.git
     ```
 
 2. Setup symbolic link:
 
     ```
-    $ ln -s ~/dotfiles/vim/.vimrc ~/
-    $ ln -s ~/dotfiles/vim/.vim ~/
+    ln -s ~/dotfiles/vim/.vimrc ~/
+    ln -s ~/dotfiles/vim/.vim ~/
     ```
 
 3. Setup vim-plug:
 
     ```
-    $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     ```
 
 4. Install plugins:
