@@ -101,6 +101,9 @@ endif
 "オートインデントする
 set autoindent
 
+"クリップボード
+set clipboard+=unnamed
+
 
 " 検索関連
 " --------
