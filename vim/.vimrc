@@ -16,6 +16,7 @@ Plug 'tomasr/molokai'
 Plug 'gtags.vim'
 Plug 'YankRing.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'mechatroner/rainbow_csv'
 
 call plug#end()
 
