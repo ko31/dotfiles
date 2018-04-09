@@ -17,6 +17,7 @@ Plug 'gtags.vim'
 Plug 'YankRing.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'mechatroner/rainbow_csv'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
